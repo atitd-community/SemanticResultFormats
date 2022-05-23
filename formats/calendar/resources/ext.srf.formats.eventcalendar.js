@@ -498,6 +498,7 @@
 							center: 'title',
 							left: self.defaults.view
 						},
+						timezone: "local",
 						isRTL: context.attr( 'dir' ) === 'rtl' || false,
 						height: context.height(),
 						defaultView: self.defaults.defaultView,
